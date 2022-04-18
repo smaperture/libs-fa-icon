@@ -1,0 +1,17 @@
+{
+  "root": "libs/ui-faicon",
+  "projectType": "library",
+  "sourceRoot": "libs/ui-faicon",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+        "script": "build"
+      },
+      "outputs": [
+        "lib"
+      ]
+    }
+  },
+  "tags": []
+}
