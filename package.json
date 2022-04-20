@@ -1,6 +1,6 @@
 {
   "name": "@smaperture/faicon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -15,13 +15,11 @@
     "prepare": "bob build",
     "test": "jest"
   },
-  "peerDependencies": {
-    "react": "17.0.1",
-    "react-native": "0.64.3"
-  },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@fortawesome/react-native-fontawesome": "^0.2.7",
+    "react": "17.0.1",
+    "react-native": "0.64.3",
     "react-native-paper": "^4.12.0"
   },
   "devDependencies": {
