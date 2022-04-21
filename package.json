@@ -12,7 +12,6 @@
   ],
   "scripts": {
     "build": "bob build",
-    "prepare": "bob build",
     "test": "jest"
   },
   "dependencies": {
